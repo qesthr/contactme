@@ -12,6 +12,7 @@
     height: 100vh;
     margin: 0;
     padding: 0;
+    background-color: #1d2027;
   }
 
   .container {
@@ -63,7 +64,7 @@
   }
 
   input .formcontrol {
-    width: 95%;
+    width: 89%;
   }
 
   .form-control::placeholder {
