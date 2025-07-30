@@ -9,6 +9,10 @@
     height: 100vh;
   }
 
+  .mainpage {
+    background: #1d2027; 
+  }
+
   .container {
     max-width: 700px;
     margin: 4rem auto;
