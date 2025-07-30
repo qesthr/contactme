@@ -37,6 +37,10 @@
     color: #c9bfff;
   }
 
+  input {
+    width: 80%;
+  }
+
   .form-group {
     margin-bottom: 1.5rem;
   }
