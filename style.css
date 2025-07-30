@@ -62,6 +62,10 @@
     font-size: 1rem;
   }
 
+  input .formcontrol {
+    width: 95%;
+  }
+
   .form-control::placeholder {
     color: #999;
   }
