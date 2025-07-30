@@ -1,0 +1,107 @@
+<style>
+  body {
+    background-color: #1d2027;
+    color: #f4f1e8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 700px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #2a2d36;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+
+  h1 {
+    text-align: center;
+    color: #c9bfff;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #c9bfff;
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .form-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .col {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background-color: #1d2027;
+    color: #f4f1e8;
+    font-size: 1rem;
+  }
+
+  .form-control::placeholder {
+    color: #999;
+  }
+
+  select.form-control {
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1.2rem;
+  }
+
+  textarea.form-control {
+    resize: vertical;
+  }
+
+  .btn {
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1d2027;
+    background-color: #c9bfff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #b5a6ff;
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: #f4f1e8;
+    line-height: 1.6;
+  }
+
+  strong {
+    color: #c9bfff;
+  }
+
+  @media (max-width: 600px) {
+    .form-row {
+      flex-direction: column;
+    }
+  }
+</style>
